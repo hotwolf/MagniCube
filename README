@@ -1,0 +1,33 @@
+MagniCube
+=============
+A 4x4x4 LED cube driven by a NXP MagniV MCU
+
+Directories:
+============
+|
++-Hardware              - Everything needed to build a MagniCube RevA
+|
++-Software              - Source files (ASM and Forth) of the calculators
+|                          firmware
+|
++-Tools                 - Tools written for the development of the MagniCube
+|
++-Subprojects           - Repository clones of the projects that MagniCube
+                          is based on
+
+The MagniCube software is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with the AriCalulator software. If not, see
+<http://www.gnu.org/licenses/>.
+
+The hardware design of the MagniCube project is licensed under a Creative
+Commons Attribution-ShareAlike 3.0 Unported License
+(http://creativecommons.org/licenses/by-sa/3.0/).
+
+MagniCube uses Kicad library components by Walter Lain which are licensed
+under a Creative Commons Attribution-ShareAlike 3.0 License 
+(http://creativecommons.org/licenses/by-sa/3.0/).
