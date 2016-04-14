@@ -1,3 +1,12 @@
-EESchema-DOCLIB  Version 2.0  Date: 4/5/2016 8:43:22 PM
+EESchema-DOCLIB  Version 2.0  Date: 4/13/2016 3:42:41 PM
+#
+$CMP DC_JACK
+D DC power jack
+$ENDCMP
+#
+$CMP SCHOTTKY
+D Diode Schottky
+K DEV SCHOTTKY
+$ENDCMP
 #
 #End Doc Library

@@ -1,5 +1,5 @@
-update=4/6/2016 1:44:14 AM
-last_client=kicad
+update=4/13/2016 1:19:11 AM
+last_client=eeschema
 [cvpcb]
 version=1
 NetIExt=net
@@ -27,6 +27,8 @@ ModuleOutlineThickness=0.200000000000
 [pcbnew/libraries]
 LibDir=../../../KiCad Libraries/walter
 LibName1=MagniCube
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=.
@@ -37,5 +39,5 @@ RptLab=1
 LabSize=60
 [eeschema/libraries]
 LibName1=MagniCube
-[general]
-version=1
+LibName2=C:/cygwin64/home/R49322/Projects/KiCad Libs/lib_w_connectors/w_connectors
+LibName3=C:/cygwin64/home/R49322/Projects/KiCad Libs/lib_w_device/w_device
