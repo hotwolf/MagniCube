@@ -9,7 +9,7 @@ $Descr User 8268 5827
 encoding utf-8
 Sheet 2 4
 Title "UART"
-Date "19 apr 2016"
+Date "20 apr 2016"
 Rev "RevA"
 Comp "Dirk Heisswolf"
 Comment1 ""
@@ -182,9 +182,9 @@ F 3 "" H 3500 3550 60  0000 C CNN
 	1    3500 3550
 	1    0    0    -1  
 $EndComp
-Text Label 2650 2300 0    60   ~ 0
+Text Label 2650 2300 0    39   ~ 0
 USBD+
-Text Label 2650 2200 0    60   ~ 0
+Text Label 2650 2200 0    39   ~ 0
 USBD-
 NoConn ~ 5850 2200
 NoConn ~ 5850 2100
@@ -192,28 +192,6 @@ NoConn ~ 1500 2000
 NoConn ~ 1500 2150
 NoConn ~ 1500 2450
 NoConn ~ 1500 2600
-$Comp
-L 5V #PWR_IO2
-U 1 1 5703751E
-P 4000 1800
-F 0 "#PWR_IO2" H 4000 1900 40  0001 C CNN
-F 1 "VIO" H 4000 1949 40  0000 C CNN
-F 2 "~" H 4000 1800 60  0000 C CNN
-F 3 "~" H 4000 1800 60  0000 C CNN
-	1    4000 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L 5V #PWR_IO3
-U 1 1 5703752D
-P 6950 2750
-F 0 "#PWR_IO3" H 6950 2850 40  0001 C CNN
-F 1 "VIO" H 6950 2899 40  0000 C CNN
-F 2 "~" H 6950 2750 60  0000 C CNN
-F 3 "~" H 6950 2750 60  0000 C CNN
-	1    6950 2750
-	1    0    0    -1  
-$EndComp
 Text GLabel 6100 1900 2    39   Output ~ 0
 UART_RXD
 Text GLabel 6100 2000 2    39   Input ~ 0
@@ -227,17 +205,6 @@ F 1 "100nF" H 2356 3465 40  0000 L CNN
 F 2 "~" H 2388 3400 30  0000 C CNN
 F 3 "~" H 2350 3550 60  0000 C CNN
 	1    2350 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L 5V #PWR_IO1
-U 1 1 570D1336
-P 2050 3250
-F 0 "#PWR_IO1" H 2050 3350 40  0001 C CNN
-F 1 "VIO" H 2050 3399 40  0000 C CNN
-F 2 "~" H 2050 3250 60  0000 C CNN
-F 3 "~" H 2050 3250 60  0000 C CNN
-	1    2050 3250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -272,17 +239,6 @@ F 2 "" H 3500 1800 60  0000 C CNN
 F 3 "" H 3500 1800 60  0000 C CNN
 	1    3500 1800
 	0    -1   -1   0   
-$EndComp
-$Comp
-L 12V #PWR_SUPPLY1
-U 1 1 570D83B0
-P 3500 1600
-F 0 "#PWR_SUPPLY1" H 3500 1700 40  0001 C CNN
-F 1 "VSUP" H 3500 1749 40  0000 C CNN
-F 2 "~" H 3500 1600 60  0000 C CNN
-F 3 "~" H 3500 1600 60  0000 C CNN
-	1    3500 1600
-	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR?
@@ -323,13 +279,9 @@ Wire Wire Line
 Wire Wire Line
 	6450 2900 6550 2900
 Wire Wire Line
-	6950 2750 6950 2900
-Wire Wire Line
 	5850 1900 6100 1900
 Wire Wire Line
 	5850 2000 6100 2000
-Wire Wire Line
-	4000 1800 4000 1950
 Wire Wire Line
 	3400 1950 3500 1950
 Wire Wire Line
@@ -353,15 +305,83 @@ Wire Wire Line
 	2450 1450 2450 1550
 Connection ~ 3500 1950
 Wire Wire Line
-	3500 1700 3500 1600
-Wire Wire Line
 	1750 3750 2350 3750
 Connection ~ 2050 3750
 Wire Wire Line
 	1750 3350 2350 3350
 Connection ~ 2050 3350
 Wire Wire Line
-	2050 3350 2050 3250
-Wire Wire Line
 	2050 3750 2050 3850
+Text Label 2350 3750 2    39   ~ 0
+GND
+Text Label 2600 2600 0    39   ~ 0
+GND
+Text Label 3500 3550 1    39   ~ 0
+GND
+Text Label 3850 3550 1    39   ~ 0
+GND
+Text Label 5250 3800 2    39   ~ 0
+GND
+Text Label 2600 1450 2    39   ~ 0
+GND
+$Comp
+L 5V #PWR?
+U 1 1 57181667
+P 2050 3300
+F 0 "#PWR?" H 2050 3400 40  0001 C CNN
+F 1 "5V" H 2050 3449 40  0000 C CNN
+F 2 "~" H 2050 3300 60  0000 C CNN
+F 3 "~" H 2050 3300 60  0000 C CNN
+	1    2050 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 3300 2050 3350
+Text Label 4000 1850 3    39   ~ 0
+5V
+Text Label 2350 3350 2    39   ~ 0
+5V
+$Comp
+L 5V #PWR?
+U 1 1 57181697
+P 4000 1800
+F 0 "#PWR?" H 4000 1900 40  0001 C CNN
+F 1 "5V" H 4000 1949 40  0000 C CNN
+F 2 "~" H 4000 1800 60  0000 C CNN
+F 3 "~" H 4000 1800 60  0000 C CNN
+	1    4000 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 1800 4000 1950
+$Comp
+L 12V #PWR?
+U 1 1 571816F0
+P 3500 1600
+F 0 "#PWR?" H 3500 1700 40  0001 C CNN
+F 1 "12V" H 3500 1749 40  0000 C CNN
+F 2 "~" H 3500 1600 60  0000 C CNN
+F 3 "~" H 3500 1600 60  0000 C CNN
+	1    3500 1600
+	1    0    0    -1  
+$EndComp
+Text Label 3500 1600 3    39   ~ 0
+12V
+Wire Wire Line
+	3500 1600 3500 1700
+$Comp
+L 5V #PWR?
+U 1 1 57181745
+P 6950 2800
+F 0 "#PWR?" H 6950 2900 40  0001 C CNN
+F 1 "5V" H 6950 2949 40  0000 C CNN
+F 2 "~" H 6950 2800 60  0000 C CNN
+F 3 "~" H 6950 2800 60  0000 C CNN
+	1    6950 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 2800 6950 2900
+Text Label 6950 2900 1    39   ~ 0
+5V
 $EndSCHEMATC
