@@ -1,7 +1,5 @@
 EESchema Schematic File Version 2
 LIBS:MagniCube
-LIBS:w_connectors
-LIBS:w_device
 LIBS:MagniCube-RevA-cache
 EELAYER 27 0
 EELAYER END
@@ -9,7 +7,7 @@ $Descr User 8268 5827
 encoding utf-8
 Sheet 1 4
 Title "AriCalulator"
-Date "21 apr 2016"
+Date "22 apr 2016"
 Rev "RevA"
 Comp "Dirk Heisswolf"
 Comment1 ""

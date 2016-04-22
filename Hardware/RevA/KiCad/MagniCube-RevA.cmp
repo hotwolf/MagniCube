@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 4/20/2016 12:54:13 AM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 4/22/2016 6:46:24 PM
 
 BeginCmp
 TimeStamp = /544A6636/545042B6;
@@ -58,13 +58,20 @@ EndCmp
 
 BeginCmp
 TimeStamp = /544A64C5/57043AE1;
-Reference = C10;
+Reference = C9;
 ValeurCmp = 100nf;
 IdModule  = c_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /544A64C5/57043AF0;
+Reference = C10;
+ValeurCmp = 100nf;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /544A64C5/571A5894;
 Reference = C11;
 ValeurCmp = 100nf;
 IdModule  = c_0805;
@@ -89,6 +96,20 @@ TimeStamp = /544A64C5/544FF341;
 Reference = CON3;
 ValeurCmp = BDM;
 IdModule  = pin_strip_3x2-90;
+EndCmp
+
+BeginCmp
+TimeStamp = /544A64C5/5718EBD2;
+Reference = D1;
+ValeurCmp = SCHOTTKY;
+IdModule  = sod80c;
+EndCmp
+
+BeginCmp
+TimeStamp = /544A6636/570D83A1;
+Reference = D2;
+ValeurCmp = SCHOTTKY;
+IdModule  = sod80c;
 EndCmp
 
 BeginCmp
@@ -544,13 +565,6 @@ TimeStamp = /544A6636/54504211;
 Reference = D_RXTX1;
 ValeurCmp = YELLOW;
 IdModule  = led_0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /544A6636/570D83A1;
-Reference = D_VUSB1;
-ValeurCmp = SCHOTTKY;
-IdModule  = diode_do35;
 EndCmp
 
 BeginCmp

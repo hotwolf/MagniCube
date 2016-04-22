@@ -1,7 +1,5 @@
 EESchema Schematic File Version 2
 LIBS:MagniCube
-LIBS:w_connectors
-LIBS:w_device
 LIBS:MagniCube-RevA-cache
 EELAYER 27 0
 EELAYER END
@@ -9,7 +7,7 @@ $Descr User 8268 5827
 encoding utf-8
 Sheet 3 4
 Title "MCU"
-Date "21 apr 2016"
+Date "22 apr 2016"
 Rev "RevA"
 Comp "Dirk Heisswolf"
 Comment1 ""
@@ -505,10 +503,10 @@ RESET
 Text Label 2100 4400 1    39   ~ 0
 BKGD
 $Comp
-L C C10
+L C C9
 U 1 1 57043AE1
 P 1550 1400
-F 0 "C10" H 1550 1500 40  0000 L CNN
+F 0 "C9" H 1550 1500 40  0000 L CNN
 F 1 "100nf" H 1556 1315 40  0000 L CNN
 F 2 "~" H 1588 1250 30  0000 C CNN
 F 3 "~" H 1550 1400 60  0000 C CNN
@@ -516,10 +514,10 @@ F 3 "~" H 1550 1400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C11
+L C C10
 U 1 1 57043AF0
 P 1800 1400
-F 0 "C11" H 1800 1500 40  0000 L CNN
+F 0 "C10" H 1800 1500 40  0000 L CNN
 F 1 "100nf" H 1806 1315 40  0000 L CNN
 F 2 "~" H 1838 1250 30  0000 C CNN
 F 3 "~" H 1800 1400 60  0000 C CNN
@@ -634,7 +632,7 @@ Text Label 7250 2750 0    39   ~ 0
 GND
 Text Label 3400 4450 2    39   ~ 0
 GND
-Text Label 1800 1600 2    39   ~ 0
+Text Label 2050 1600 2    39   ~ 0
 GND
 $Comp
 L 12V #PWR25
@@ -688,7 +686,7 @@ F 3 "~" H 800 1150 60  0000 C CNN
 	1    800  1150
 	1    0    0    -1  
 $EndComp
-Text Label 1800 1200 2    39   ~ 0
+Text Label 2050 1200 2    39   ~ 0
 5V
 $Comp
 L 5V #PWR23
@@ -1005,7 +1003,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 4450 2200 4450
 Wire Wire Line
-	800  1200 1800 1200
+	800  1200 2050 1200
 Connection ~ 1050 1200
 Connection ~ 1050 1600
 Connection ~ 1300 1600
@@ -1022,7 +1020,7 @@ Connection ~ 2150 1850
 Connection ~ 1300 1200
 Connection ~ 1550 1200
 Wire Wire Line
-	800  1600 1800 1600
+	800  1600 2050 1600
 Connection ~ 1550 1600
 Wire Wire Line
 	3800 1300 3800 1100
@@ -1074,4 +1072,17 @@ Wire Wire Line
 	1100 3250 1400 3250
 Wire Wire Line
 	1400 3250 1400 3300
+$Comp
+L C C11
+U 1 1 571A5894
+P 2050 1400
+F 0 "C11" H 2050 1500 40  0000 L CNN
+F 1 "100nf" H 2056 1315 40  0000 L CNN
+F 2 "~" H 2088 1250 30  0000 C CNN
+F 3 "~" H 2050 1400 60  0000 C CNN
+	1    2050 1400
+	1    0    0    -1  
+$EndComp
+Connection ~ 1800 1200
+Connection ~ 1800 1600
 $EndSCHEMATC

@@ -1,7 +1,5 @@
 EESchema Schematic File Version 2
 LIBS:MagniCube
-LIBS:w_connectors
-LIBS:w_device
 LIBS:MagniCube-RevA-cache
 EELAYER 27 0
 EELAYER END
@@ -9,7 +7,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 4
 Title ""
-Date "21 apr 2016"
+Date "22 apr 2016"
 Rev ""
 Comp ""
 Comment1 ""

@@ -1,5 +1,5 @@
-update=4/15/2016 3:45:22 PM
-last_client=pcbnew
+update=4/22/2016 7:35:12 AM
+last_client=eeschema
 [cvpcb]
 version=1
 NetIExt=net
@@ -7,18 +7,6 @@ NetIExt=net
 EquName1=devcms
 [general]
 version=1
-[eeschema]
-version=1
-LibDir=.
-NetFmtName=PcbnewAdvanced
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
-[eeschema/libraries]
-LibName1=MagniCube
-LibName2=C:/cygwin64/home/R49322/Projects/KiCad Libs/lib_w_connectors/w_connectors
-LibName3=C:/cygwin64/home/R49322/Projects/KiCad Libs/lib_w_device/w_device
 [pcbnew]
 version=1
 LastNetListRead=MagniCube-RevA.net
@@ -40,4 +28,14 @@ BoardOutlineThickness=0.150000000000
 ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
 LibDir=../../../KiCad Libraries/walter
+LibName1=MagniCube
+[eeschema]
+version=1
+LibDir=.
+NetFmtName=PcbnewAdvanced
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60
+[eeschema/libraries]
 LibName1=MagniCube
