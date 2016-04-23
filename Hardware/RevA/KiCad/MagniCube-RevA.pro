@@ -1,4 +1,4 @@
-update=4/22/2016 7:35:12 AM
+update=4/23/2016 4:40:08 AM
 last_client=eeschema
 [cvpcb]
 version=1
@@ -36,6 +36,6 @@ NetFmtName=PcbnewAdvanced
 RptD_X=0
 RptD_Y=100
 RptLab=1
-LabSize=60
+LabSize=39
 [eeschema/libraries]
 LibName1=MagniCube
