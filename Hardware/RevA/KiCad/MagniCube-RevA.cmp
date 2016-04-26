@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 4/22/2016 6:46:24 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 4/24/2016 1:40:15 AM
 
 BeginCmp
 TimeStamp = /544A6636/545042B6;
@@ -782,6 +782,34 @@ TimeStamp = /57045043/570451E4;
 Reference = R7;
 ValeurCmp = 270;
 IdModule  = r_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /544A6636/571C0840;
+Reference = SG1;
+ValeurCmp = SPARK_GAP;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /544A6636/571C084D;
+Reference = SG2;
+ValeurCmp = SPARK_GAP;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /544A6636/571C0853;
+Reference = SG3;
+ValeurCmp = SPARK_GAP;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /544A6636/571C0859;
+Reference = SG4;
+ValeurCmp = SPARK_GAP;
+IdModule  = ;
 EndCmp
 
 EndListe
