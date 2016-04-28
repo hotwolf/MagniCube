@@ -3,7 +3,7 @@
   (general
     (links 217)
     (no_connects 3)
-    (area 119.949999 79.949999 172.4739 131.317777)
+    (area 119.949999 79.949999 170.050001 130.96)
     (thickness 1.6)
     (drawings 49)
     (tracks 807)
@@ -20,8 +20,8 @@
   )
 
   (layers
-    (15 F.Cu signal)
-    (0 B.Cu signal hide)
+    (15 F.Cu signal hide)
+    (0 B.Cu signal)
     (16 B.Adhes user)
     (17 F.Adhes user)
     (18 B.Paste user)
@@ -29,7 +29,7 @@
     (20 B.SilkS user hide)
     (21 F.SilkS user)
     (22 B.Mask user)
-    (23 F.Mask user)
+    (23 F.Mask user hide)
     (28 Edge.Cuts user)
   )
 
@@ -55,13 +55,13 @@
     (pcb_text_width 0.3)
     (pcb_text_size 1 1)
     (mod_edge_width 0.15)
-    (mod_text_size 1.5 1.5)
-    (mod_text_width 0.15)
+    (mod_text_size 0.5 0.5)
+    (mod_text_width 0.1)
     (pad_size 0.8476 0.8476)
     (pad_drill 0)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFFFDDB)
+    (visible_elements 7FFFFEEB)
     (pcbplotparams
       (layerselection 3178497)
       (usegerberextensions true)
@@ -204,10 +204,10 @@
     (descr LQFP-48)
     (path /544A64C5/57040B96)
     (fp_text reference IC2 (at 0 2.4 135) (layer B.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.16)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value MC9S12VR64 (at 0 0 225) (layer B.SilkS)
-      (effects (font (size 1 1) (thickness 0.16)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_circle (center -2.5 -2.5) (end -2.5 -2.8) (layer B.SilkS) (width 0.2))
     (fp_circle (center -2.5 -2.5) (end -2.5 -2.6) (layer B.SilkS) (width 0.2))
@@ -603,10 +603,10 @@
     (descr SSOP-16)
     (path /544A6636/544AC281)
     (fp_text reference IC1 (at 0 1.7 180) (layer B.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.16)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value FT232RL (at 0.1 -0.1 180) (layer B.SilkS)
-      (effects (font (size 1 1) (thickness 0.16)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_circle (center -4.3 -1.7) (end -4.3 -1.8) (layer B.SilkS) (width 0.2))
     (fp_circle (center -4.3 -1.7) (end -4.3 -2) (layer B.SilkS) (width 0.2))
@@ -721,10 +721,10 @@
     (descr "SMT resistor, 0805")
     (path /57045043/570451E4)
     (fp_text reference R7 (at -2.6 0 360) (layer B.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.16)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 270 (at 2.6 0 360) (layer B.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.16)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad 1 smd rect (at 0.9525 0 90) (size 1.30048 1.4986)
       (layers B.Cu B.Paste B.Mask)
@@ -746,10 +746,10 @@
     (descr "SMT resistor, 0805")
     (path /57045043/570451D8)
     (fp_text reference R5 (at -2.6 0 360) (layer B.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.16)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 270 (at 2.6 0 360) (layer B.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.16)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad 1 smd rect (at 0.9525 0 90) (size 1.30048 1.4986)
       (layers B.Cu B.Paste B.Mask)
@@ -771,10 +771,10 @@
     (descr "SMT resistor, 0805")
     (path /57045043/570451DE)
     (fp_text reference R6 (at -2.6 0 360) (layer B.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.16)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 270 (at 2.6 0 360) (layer B.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.16)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad 1 smd rect (at 0.9525 0 90) (size 1.30048 1.4986)
       (layers B.Cu B.Paste B.Mask)
@@ -796,10 +796,10 @@
     (descr "SMT resistor, 0805")
     (path /544A6636/54504202)
     (fp_text reference R1 (at -2.6 0 450) (layer B.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.16)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 270 (at 2.6 0 450) (layer B.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.16)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad 1 smd rect (at 0.9525 0 180) (size 1.30048 1.4986)
       (layers B.Cu B.Paste B.Mask)
@@ -821,10 +821,10 @@
     (descr "SMT resistor, 0805")
     (path /544A6636/570D133E)
     (fp_text reference R2 (at -2.6 0 360) (layer B.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.16)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 10k (at 2.6 0 360) (layer B.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.16)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad 1 smd rect (at 0.9525 0 90) (size 1.30048 1.4986)
       (layers B.Cu B.Paste B.Mask)
@@ -846,10 +846,10 @@
     (descr "SMT resistor, 0805")
     (path /57045043/570451BA)
     (fp_text reference R4 (at -2.6 0 360) (layer B.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.16)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 270 (at 2.6 0 360) (layer B.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.16)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad 1 smd rect (at 0.9525 0 90) (size 1.30048 1.4986)
       (layers B.Cu B.Paste B.Mask)
@@ -871,10 +871,10 @@
     (descr "SMT resistor, 0805")
     (path /544A6636/570D134D)
     (fp_text reference R3 (at -2.6 0 540) (layer B.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.16)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 4k7 (at 2.6 0 540) (layer B.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.16)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad 1 smd rect (at 0.9525 0 270) (size 1.30048 1.4986)
       (layers B.Cu B.Paste B.Mask)
@@ -1358,10 +1358,10 @@
     (descr "Inductor SMD, 0805")
     (path /544A6636/54503F06)
     (fp_text reference FB1 (at 0 1.8) (layer B.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.16)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value MI0805K400R-10 (at 0 -1.9) (layer B.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.16)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad 1 smd rect (at -0.889 0) (size 1.016 1.778)
       (layers B.Cu B.Paste B.Mask)
@@ -1530,10 +1530,10 @@
     (descr "SMT capacitor, 0805")
     (path /544A6636/570D12A2)
     (fp_text reference C3 (at 2.6 0 540) (layer B.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.16)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100nF (at -2.4 0 540) (layer B.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.16)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad 1 smd rect (at 0.9525 0 270) (size 1.30048 1.4986)
       (layers B.Cu B.Paste B.Mask)
@@ -1555,10 +1555,10 @@
     (descr "SMT capacitor, 0805")
     (path /544A64C5/57044C74)
     (fp_text reference C8 (at 2.6 0 360) (layer B.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.16)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100nf (at -2.4 0 360) (layer B.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.16)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad 1 smd rect (at 0.9525 0 90) (size 1.30048 1.4986)
       (layers B.Cu B.Paste B.Mask)
@@ -1580,10 +1580,10 @@
     (descr "SMT capacitor, 0805")
     (path /544A64C5/57044C68)
     (fp_text reference C6 (at 2.6 0 360) (layer B.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.16)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 4.7uF (at -2.4 0 360) (layer B.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.16)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad 1 smd rect (at 0.9525 0 90) (size 1.30048 1.4986)
       (layers B.Cu B.Paste B.Mask)
@@ -1605,10 +1605,10 @@
     (descr "SMT capacitor, 0805")
     (path /544A64C5/57043AE1)
     (fp_text reference C9 (at 2.6 0 270) (layer B.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.16)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100nf (at -2.4 0 270) (layer B.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.16)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad 1 smd rect (at 0.9525 0) (size 1.30048 1.4986)
       (layers B.Cu B.Paste B.Mask)
@@ -1680,10 +1680,10 @@
     (descr "SMT capacitor, 0805")
     (path /544A6636/545042C5)
     (fp_text reference C2 (at 2.6 0 540) (layer B.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.16)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100nF (at -2.4 0 540) (layer B.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.16)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad 1 smd rect (at 0.9525 0 270) (size 1.30048 1.4986)
       (layers B.Cu B.Paste B.Mask)
@@ -1700,15 +1700,15 @@
     )
   )
 
-  (module c_0805 (layer B.Cu) (tedit 5478DD62) (tstamp 574033DA)
+  (module c_0805 (layer B.Cu) (tedit 5721A344) (tstamp 574033DA)
     (at 151.9 128.3 180)
     (descr "SMT capacitor, 0805")
     (path /544A6636/545042B6)
     (fp_text reference C1 (at 2.6 0 450) (layer B.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.16)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
-    (fp_text value 4.7uF (at -2.4 0 450) (layer B.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.16)) (justify mirror))
+    (fp_text value 4.7uF (at 0 -1.4 180) (layer B.SilkS) hide
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad 1 smd rect (at 0.9525 0 180) (size 1.30048 1.4986)
       (layers B.Cu B.Paste B.Mask)
@@ -1730,10 +1730,10 @@
     (descr "SMT capacitor, 0805")
     (path /544A6636/54502C6B)
     (fp_text reference C4 (at 2.6 0 360) (layer B.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.16)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 100nF (at -2.4 0 360) (layer B.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.16)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad 1 smd rect (at 0.9525 0 90) (size 1.30048 1.4986)
       (layers B.Cu B.Paste B.Mask)
@@ -1755,10 +1755,10 @@
     (descr "SMT capacitor, 0805")
     (path /544A6636/545042A7)
     (fp_text reference C5 (at 2.6 0 270) (layer B.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.16)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 10nF (at -2.4 0 270) (layer B.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.16)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad 1 smd rect (at 0.9525 0) (size 1.30048 1.4986)
       (layers B.Cu B.Paste B.Mask)
@@ -1878,10 +1878,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 5718718D) (tstamp 571ECD03)
     (at 141.4 114.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -1896,10 +1896,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 571AE632) (tstamp 571ECD12)
     (at 141.4 113.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -1914,10 +1914,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 57187172) (tstamp 571ECD33)
     (at 136.7 114.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -1932,10 +1932,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 57187199) (tstamp 571ECD3C)
     (at 142.4 113.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -1950,10 +1950,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 57187168) (tstamp 571ECD45)
     (at 137.7 113.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -1968,10 +1968,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 57187180) (tstamp 571ECD4E)
     (at 136.7 113.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -1986,10 +1986,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 571876F9) (tstamp 571ECDD6)
     (at 126.8 113.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2004,10 +2004,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 57187705) (tstamp 571ECDDF)
     (at 127.8 114.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2022,10 +2022,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 571AE5A5) (tstamp 571ECDE8)
     (at 127.8 113.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2040,10 +2040,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 571878D4) (tstamp 571ECE22)
     (at 121.8 110.3)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2058,10 +2058,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 571878E3) (tstamp 571ECE2B)
     (at 122.8 109.3)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2076,10 +2076,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 571878ED) (tstamp 571ECE34)
     (at 122.8 110.3)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2094,10 +2094,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 57188800) (tstamp 571ECECA)
     (at 122.8 99.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2112,10 +2112,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 571887F2) (tstamp 571ECED3)
     (at 121.8 99.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2130,10 +2130,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 571887DC) (tstamp 571ECEDC)
     (at 122.8 100.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2148,10 +2148,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 57188A20) (tstamp 571ECEE5)
     (at 122.8 85.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2166,10 +2166,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 57188A12) (tstamp 571ECEEE)
     (at 122.8 86.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2184,10 +2184,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 57188A05) (tstamp 571ECEF7)
     (at 121.8 85.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2202,10 +2202,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 57188DBD) (tstamp 571ECF8B)
     (at 122.8 123.3)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2220,10 +2220,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 57188DD4) (tstamp 571ECF94)
     (at 122.8 124.3)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2238,10 +2238,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 57188DAD) (tstamp 571ECF9D)
     (at 121.8 124.3)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2256,10 +2256,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 57189157) (tstamp 571ECFE4)
     (at 134.7 126)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2274,10 +2274,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 5718914C) (tstamp 571ECFED)
     (at 134.7 127)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2292,10 +2292,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 57189140) (tstamp 571ECFF6)
     (at 133.7 126)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2310,10 +2310,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 57189C8F) (tstamp 571BF668)
     (at 148.6 114.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2328,10 +2328,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 571AE64F) (tstamp 571BF671)
     (at 148.6 113.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2346,10 +2346,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 57189CAD) (tstamp 571BF67A)
     (at 147.6 113.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2364,10 +2364,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 571AE699) (tstamp 571BF6D0)
     (at 162.2 113.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2382,10 +2382,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 5718AB10) (tstamp 571BF6D9)
     (at 163.2 113.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2400,10 +2400,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 5718AB07) (tstamp 571BF6E2)
     (at 162.2 114.7 90)
     (fp_text reference SG (at -0.5 0.5 90) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5 90) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0 90) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2418,10 +2418,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 5718B8E4) (tstamp 571BF8DB)
     (at 134 98)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2436,10 +2436,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 5718B8EE) (tstamp 571BF8E4)
     (at 135 99)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2454,10 +2454,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 5718B8FA) (tstamp 571A651E)
     (at 135 98)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2472,10 +2472,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 5718EF40) (tstamp 571C492B)
     (at 136.8 85.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2490,10 +2490,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 5718EF30) (tstamp 571C4934)
     (at 135.8 85.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2508,10 +2508,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 5718EF36) (tstamp 571C493D)
     (at 136.8 86.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2526,10 +2526,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 5718EFD4) (tstamp 571C4975)
     (at 153.2 85.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2544,10 +2544,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 5718EFCA) (tstamp 571C497E)
     (at 153.2 86.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2562,10 +2562,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 5718EFC1) (tstamp 571C4987)
     (at 154.2 85.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2580,10 +2580,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 5718F163) (tstamp 571C49FD)
     (at 167.2 85.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2598,10 +2598,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 5718F156) (tstamp 571C4A06)
     (at 167.2 86.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2616,10 +2616,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 5718F14F) (tstamp 571C4A0F)
     (at 168.2 85.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2634,10 +2634,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 5718F1BD) (tstamp 571C4A36)
     (at 167.2 99.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2652,10 +2652,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 5718F1B2) (tstamp 571C4A3F)
     (at 166.2 99.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2670,10 +2670,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 5718F1A6) (tstamp 571C4A48)
     (at 167.2 100.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2688,10 +2688,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 5718F281) (tstamp 571C4A6F)
     (at 166.3 113.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2706,10 +2706,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 5718F25F) (tstamp 571C4A78)
     (at 167.3 114.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2724,10 +2724,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 5718F28A) (tstamp 571C4A81)
     (at 167.3 113.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2742,10 +2742,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 5718F2FA) (tstamp 571E1343)
     (at 168 124.3)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2760,10 +2760,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 5718F2EF) (tstamp 571E133D)
     (at 167 124.3)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2778,10 +2778,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 5718F2E8) (tstamp 571C4ABE)
     (at 168 123.3)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2796,10 +2796,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 5718F348) (tstamp 571C4AE5)
     (at 154.2 99.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2814,10 +2814,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 5718F367) (tstamp 571C4AEE)
     (at 153.2 99.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2832,10 +2832,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 5718F353) (tstamp 571C4AF7)
     (at 153.2 100.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2850,10 +2850,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 5718F3BB) (tstamp 571C4B1E)
     (at 153.3 114.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2868,10 +2868,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 5718F3B5) (tstamp 571C4B27)
     (at 152.3 113.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2886,10 +2886,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 5718F3C6) (tstamp 571C4B30)
     (at 153.3 113.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2904,10 +2904,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 5718F445) (tstamp 571C4B58)
     (at 155 127)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2922,10 +2922,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 5718F44F) (tstamp 571C4B61)
     (at 155 126)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2940,10 +2940,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 5718F43D) (tstamp 571C4B6A)
     (at 156 126)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2958,10 +2958,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 57198A53) (tstamp 571C57AE)
     (at 149.6 91.9)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2976,10 +2976,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 57198A3C) (tstamp 571C5719)
     (at 149.6 87.5)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -2994,10 +2994,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 57198A2A) (tstamp 571C5722)
     (at 150.6 91.9)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -3012,10 +3012,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 57198E38) (tstamp 571C572B)
     (at 149.6 88.5)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -3030,10 +3030,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 5719E472) (tstamp 571C5734)
     (at 150.6 88.5)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -3048,10 +3048,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 57198F41) (tstamp 571C573D)
     (at 149.6 90.9)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -3068,10 +3068,10 @@
     (descr SOD80C)
     (path /544A64C5/5718EBD2)
     (fp_text reference D1 (at 0 1.4224 90) (layer B.SilkS)
-      (effects (font (size 0.70104 0.70104) (thickness 0.14986)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value SCHOTTKY (at 0.0254 -1.397 90) (layer B.SilkS) hide
-      (effects (font (size 0.70104 0.70104) (thickness 0.14986)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_line (start -1.016 0) (end -1.27 0) (layer B.SilkS) (width 0.15))
     (fp_line (start 1.016 0) (end 1.27 0) (layer B.SilkS) (width 0.15))
@@ -3101,10 +3101,10 @@
     (descr SOD80C)
     (path /544A6636/570D83A1)
     (fp_text reference D2 (at 0 1.4224 90) (layer B.SilkS)
-      (effects (font (size 0.70104 0.70104) (thickness 0.14986)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value SCHOTTKY (at 0.0254 -1.397 90) (layer B.SilkS) hide
-      (effects (font (size 0.70104 0.70104) (thickness 0.14986)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_line (start -1.016 0) (end -1.27 0) (layer B.SilkS) (width 0.15))
     (fp_line (start 1.016 0) (end 1.27 0) (layer B.SilkS) (width 0.15))
@@ -3132,10 +3132,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 571AF2BE) (tstamp 571C5B74)
     (at 140.4 91.9)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -3150,10 +3150,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 571A50F5) (tstamp 571C5B7D)
     (at 140.4 90.9)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -3168,10 +3168,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 571A50EF) (tstamp 571C5B8F)
     (at 139.4 91.9)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -3211,10 +3211,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 571C121B) (tstamp 5724CDA8)
     (at 151 123.1)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -3229,10 +3229,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 571BC3E4) (tstamp 5724CDB1)
     (at 139.9 117.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -3247,10 +3247,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 571BC3FB) (tstamp 5724CDBA)
     (at 139.9 119.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -3265,10 +3265,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 571BC406) (tstamp 5724CDC3)
     (at 138.9 119.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -3283,10 +3283,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 571BC411) (tstamp 5724CDCC)
     (at 139.9 118.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -3301,10 +3301,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 571BC46C) (tstamp 5724CDD5)
     (at 138.9 118.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -3319,10 +3319,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 571C30E9) (tstamp 5724CDDE)
     (at 150 121.1)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -3337,10 +3337,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 571BC4A8) (tstamp 5724CDE7)
     (at 151 124.1)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -3355,10 +3355,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 571BC3D3) (tstamp 5724CDF0)
     (at 139.9 120.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -3373,10 +3373,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 571BC4D2) (tstamp 5724CE2B)
     (at 151 122.1)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -3391,10 +3391,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 571C3093) (tstamp 5724D7E0)
     (at 150 122.1)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -3409,10 +3409,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 571C30AC) (tstamp 5724D7E9)
     (at 139.9 121.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -3427,10 +3427,10 @@
   (module spark_gap_pad_1.0 (layer B.Cu) (tedit 571C30B7) (tstamp 5724D7F2)
     (at 140.9 121.7)
     (fp_text reference SG (at -0.5 0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value 1.0 (at 0.5 -0.5) (layer B.SilkS) hide
-      (effects (font (size 0.127 0.127) (thickness 0.03175)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 0.8476 0.8476)
       (layers B.Cu)
@@ -3446,10 +3446,10 @@
     (at 168 93 270)
     (descr "Polarity logo, negative center, 5x1.4mm")
     (fp_text reference G*** (at -0.9 0.6 270) (layer F.SilkS) hide
-      (effects (font (size 0.0889 0.0889) (thickness 0.01778)))
+      (effects (font (size 0.5 0.5) (thickness 0.1)))
     )
     (fp_text value LOGO (at 1 0.6 270) (layer F.SilkS) hide
-      (effects (font (size 0.0889 0.0889) (thickness 0.01778)))
+      (effects (font (size 0.5 0.5) (thickness 0.1)))
     )
     (fp_line (start -1.85 0.35) (end -1.85 -0.35) (layer F.SilkS) (width 0.15))
     (fp_line (start 1.5 0) (end 2.2 0) (layer F.SilkS) (width 0.15))
@@ -3470,10 +3470,10 @@
     (at 160 95)
     (descr "CC BY-SA logo, 10x4.5mm")
     (fp_text reference G*** (at 1 1) (layer B.SilkS) hide
-      (effects (font (size 0.2286 0.2286) (thickness 0.04572)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_text value LOGO (at 1.9 1.7) (layer B.SilkS) hide
-      (effects (font (size 0.2286 0.2286) (thickness 0.04572)) (justify mirror))
+      (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
     )
     (fp_poly (pts (xy 5.00634 2.23266) (xy 4.89204 2.23266) (xy 4.89204 0.89154) (xy 4.89204 -0.57404)
       (xy 4.89204 -2.0447) (xy 4.85394 -2.0828) (xy 4.81584 -2.11836) (xy 0.00508 -2.11836)
@@ -3836,7 +3836,7 @@
   (gr_text 2016 (at 156 97.8) (layer B.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.12)) (justify mirror))
   )
-  (gr_text http://hotwolf.github.io/MagniCube (at 149.2 115.5) (layer F.SilkS)
+  (gr_text http://hotwolf.github.io/MagniCube (at 145 114.9) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.25)))
   )
   (gr_text RevA (at 127.6 98.7) (layer F.SilkS)
