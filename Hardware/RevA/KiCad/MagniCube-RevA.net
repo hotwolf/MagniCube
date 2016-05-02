@@ -95,8 +95,8 @@
       (sheetpath (names /MCU/) (tstamps /544A64C5/))
       (tstamp 544FF341))
     (comp (ref IC3)
-      (value MC9S12VRP64)
-      (libsource (lib MagniCube) (part MC9S12VRP64))
+      (value MC9S12XXXXX)
+      (libsource (lib MagniCube) (part MC9S12XXXXX))
       (sheetpath (names /MCU/) (tstamps /544A64C5/))
       (tstamp 57040BB9))
     (comp (ref C9)
@@ -750,10 +750,10 @@
         (pin (num 46) (name PT3) (type BiDi))
         (pin (num 47) (name PS0) (type BiDi))
         (pin (num 48) (name PS1) (type BiDi))))
-    (libpart (lib MagniCube) (part MC9S12VRP64)
+    (libpart (lib MagniCube) (part MC9S12XXXXX)
       (fields
         (field (name Reference) IC)
-        (field (name Value) MC9S12VRP64)
+        (field (name Value) MC9S12XXXXX)
         (field (name Footprint) ~)
         (field (name Datasheet) ~))
       (pins

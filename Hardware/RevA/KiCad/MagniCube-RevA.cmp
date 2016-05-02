@@ -591,7 +591,7 @@ EndCmp
 BeginCmp
 TimeStamp = /544A64C5/57040BB9;
 Reference = IC3;
-ValeurCmp = MC9S12VRP64;
+ValeurCmp = MC9S12XXXXX;
 IdModule  = lqfp48;
 EndCmp
 
