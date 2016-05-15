@@ -1,0 +1,41 @@
+Bill of Materials for the MagniCube:
+====================================
+
+ICs:
+
+1x                      FT232RL                 SSOP-28                 IC1                                                                             
+1x                      MC9S12VR64              LQFP48                  IC2
+ 1x                     MC9S12XXXXX             LQFP48                  IC3 (instead of IC2)                                                                            
+                                                                                
+Capacitors:                                                                     
+                                                                                
+1x                      10nF                    0805                    C5                                                                      
+6x                      100nF                   0805                    C2,C3,C4,C7,C10,C11                                                             
+ 2x                     100nf                   0805                    C8,C9 (instead of C10,C11)                                                      
+2x                      4.7uF                   0805                    C1,C6                                                                   
+                                                                                
+Inductors:
+
+1x                      MI0805K400R-10  inductor_smd_0805               FB1                                                                                     
+                                                                                
+Resistors:
+                                                                                
+5x                      270                     0805                    R7,R5,R6,R1,R4                                                  
+1x                      4k7                     0805                    R3                                                                      
+1x                      10k                     0805                    R2                                                                      
+
+Diodes:
+
+2x                      SCHOTTKY                SOD80C                  D1,D2                                                                           
+
+LEDs:
+                                                                                
+1x                      YELLOW                  0805                    D_RXTX1                                                                 
+64x                     blue                    Print                   D_L0C0...D_L3C15
+
+Connectors:
+
+1x                      DC_JACK                 DC Socket_              CON2                                                                            
+1x                      USB-MINI-B              USB-Mini-B SMD          CON1                                                                            
+1x                      BDM                     Pin Strip 3x2-90        CON3                                                                    
+20x                     LED Cube                Pin Socket 1            J_L0...J_L3,J_C0...J_C15
