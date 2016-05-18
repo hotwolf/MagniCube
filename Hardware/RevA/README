@@ -1,0 +1,31 @@
+MagniCube
+=========
+
+This directory contails all design related files for MagniCube RevA.
+
+Directories:
+============
+|
++-KiCad			- KiCad tool data (PCB)
+|
++-OpenSCAD              - OpenSCAD tool data (base)
+
+Files:
+======
+|
++-MagniCube-RevA Schematic.pdf      - Schematic
+|
++-MagniCube-RevA BOM.txt            - Bill of materials
+|
++-MagniCube-RevA Assembly Plan.pdf  - Component locations for assembly
+|
++-MagniCube-RevA Gerber.zip         - Gerber files
+|
++-MagniCube-RevA Base.stl           - 3D printed base oh the MagniCube
+
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0
+Unported License (http://creativecommons.org/licenses/by-sa/3.0/).
+
+MagniCube RevA uses Kicad library components by Walter Lain which are licensed
+under a Creative Commons Attribution-ShareAlike 3.0 License 
+(http://creativecommons.org/licenses/by-sa/3.0/).
