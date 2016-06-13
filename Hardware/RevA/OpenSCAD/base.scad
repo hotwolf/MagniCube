@@ -1,16 +1,13 @@
-
-
-
-
-
-
-
 $fn=128;
 width=52;
 height=25;
 radius=6;
 wallThickness=2;
-rimHeight=4;
+batHeight=17;
+batWidth=26.2;
+batGap=2;
+batLength=48.5;
+compHeight=2;
 pcbWidth=50.4;
 pcbRadius=5.2;
 pcbThickness=1;
@@ -19,129 +16,66 @@ screwClearance=2;
 screwLength=10;
 nutRadius=3.1;
 overhangIncline=0.5;
+engraveDepth=0.5;
 
-batGap=1;
-batHeight=17;
-batWidth=26.2;
-batLength=48.5;
-
-//Basic shape of the body
-module bodyShape (width=50,
-                  height=20,
-                  radius=5) {
+//Rounded Cuboid
+module roundedCuboid (width=50,
+                      length=50,
+                      height=20,
+                      radius=5) {
     minkowski() {
         //Dimensions=240
-        translate([0,0,(height-(radius/sqrt(2)))/2])
+        translate([0,0,height/2])
             cube(size=[width-(2*radius),
-                       width-(2*radius),
-                       height-(radius/sqrt(2))], center=true);
+                       length-(2*radius),
+                       height-(2*radius)], center=true);
         //Rounded corners
-        intersection() {
-            translate([0,0,radius/sqrt(2)])
-                sphere(r=radius);
-            translate([0,0,radius/(2*sqrt(2))])
-                cube(size=[2*radius,
-                           2*radius,
-                           radius/sqrt(2)], center=true);
-        }
+        sphere(r=radius);
     }
 }
 
-module outerWall() {
-    difference() {
-        //Positive
-        bodyShape(width,height,radius);
-        //Negative
+//Outer body
+module outerBody() {
+    roundedCuboid(width=width,
+                  length=width,
+                  height=height+radius+1,
+                  radius=radius);
+}
+
+//Height limit
+module heightLimit() {
+        translate([0,0,2*height])
+            cube(size=[width+2,
+                       width+2,
+                       2*height], center=true);
+}
+
+//Battery space
+module batSpace() {
+    intersection() {
         translate([0,0,wallThickness])
-            bodyShape(width-(2*wallThickness),
-                      height,
-                      radius-wallThickness);
+            roundedCuboid(width=width-wallThickness,
+                          length=width-wallThickness,
+                          height=height+radius+1,
+                          radius=radius-wallThickness);
+        translate([0,0,height/2])
+           cube(size=[width,
+                      batWidth+batGap,
+                      2*height], center=true);
     }
 }
 
-//Positive shapes
-module positives() {
-    //Outer Wall
-    outerWall();
-    //Columns
-    for (rotation=[0,90,180,270]) {
-        rotate([0,0,rotation])
-            translate([18,18,0])
-                cylinder(h=height-pcbThickness, 
-                         r=screwRadius+screwClearance, 
-                         center=false);
-        rotate([0,0,rotation])
-            translate([18,18,0])
-                cylinder(h=height-screwLength, 
-                         r=nutRadius+wallThickness, 
-                         center=false);
-        rotate([0,0,rotation])
-            translate([18,18,height-screwLength])
-                cylinder(h=overhangIncline*
-                           ((nutRadius+wallThickness)
-                           -(screwRadius+screwClearance)), 
-                         r1=nutRadius+wallThickness, 
-                         r2=screwRadius+screwClearance, 
-                        center=false);
-    
-    }
-    //Guides
-    translate([0,0,(height-screwLength)/2]) 
-        cube(size=[batLength,
-                   batWidth+batGap+(2*wallThickness),
-                   height-screwLength], center=true);
-    //Diaginal renforcements
-    for (rotation=[45,135]) {
-        intersection() {
-            bodyShape(width,height,radius);      
-            rotate([0,0,rotation])
-                translate([0,0,(height-screwLength)/2])
-                    cube(size=[width*2,
-                               wallThickness,
-                               height-screwLength], 
-                         center=true);
-        }
-    }
-    //Orthogonal renforcements
-//     for (translation=[-18,0,18]) {
-     for (translation=[-18,18]) {
-        intersection() {
-            bodyShape(width,height,radius);      
-             translate([translation,0,(height-screwLength)/2])
-                cube(size=[wallThickness,
-                           width,
-                           height-screwLength], 
-                     center=true);
-        }
-    }
+//Battery opening
+module batOpening() {
+    translate([0,0,height-batHeight-compHeight])
+        roundedCuboid(width=width+2*radius+2,
+                    length=batWidth,
+                    height=height+radius+1,
+                    radius=radius);
+}
 
-
-}   
-
-
-//Negative shapes
-module negatives() {
-    //Openings
-    translate([width/2,0,wallThickness+rimHeight])
-        bodyShape(batWidth+batGap,
-                  height,
-                  radius);    
-    translate([-width/2,0,wallThickness+rimHeight])
-        bodyShape(batWidth+batGap,
-                  height,
-                  radius);
-    //Battery
-    translate([0,0,wallThickness+(height/2)])
-        cube(size=[batLength+batGap,
-                   batWidth+batGap,
-                   height], center=true);
-    //PCB
-    translate([0,0,height+pcbRadius])
-        mirror([0,0,1])
-        bodyShape(pcbWidth,
-                  pcbThickness+pcbRadius,
-                  pcbRadius);
-    //Screws
+//Screw holes
+module screwHoles() {
     for (rotation=[0,90,180,270]) {
         rotate([0,0,rotation])
             translate([18,18,-1])
@@ -165,27 +99,87 @@ module negatives() {
                              center=false,
                              $fn=6);
     }
-    
-//    //Cut
-//    translate([68,0,0])
-//        cube(size=[100,100,100], center=true);
-    
 }
 
-//Body
-difference() {
-    positives();
-    negatives();
+//Screw columns
+module screwColumns() {
+    for (rotation=[0,90,180,270]) {
+        rotate([0,0,rotation])
+            translate([18,18,18])
+                cylinder(h=height-pcbThickness, 
+                         r=screwRadius+screwClearance, 
+                         center=false);    
+    }
 }
 
+//Component space
+module compSpace() {
+    difference() {
+        intersection() {
+            roundedCuboid(width=width-(2*wallThickness),
+                          length=width-(2*wallThickness),
+                          height=2*height,
+                          radius=radius-wallThickness);    
+            translate([0,0,height])
+                cube(size=[width+2,
+                           width+2,
+                           2*compHeight], center=true);
+        }
+        screwColumns();
+    }  
 
-//Battery
-showBattery=false;
-//showBattery=true;
-if (showBattery) {
-    color("blue")
-    translate([0,0,wallThickness+(batHeight/2)])
-        cube(size=[batLength,
-                   batWidth,
-                   batHeight], center=true);
-}
+ }
+
+//Logo
+ module logo() {
+    for (rotation=[0,180]) {
+     rotate([0,0,rotation])
+         translate([0,-width/2,height/2])
+            rotate([90,0,0])
+                linear_extrude(height=2*engraveDepth, slices=2, center=true)
+                    text("MagniCube",
+                         valign="center",
+                         halign="center",
+                         size=height/4,
+                         font="Tw Cen MT Condensed Extra Bold:style=Regular");
+    }
+ }
+
+//outerBody();
+//heightLimit();
+//batSpace();
+//batOpening();
+//screwHoles();
+//screwColumns();
+//compSpace();
+//logo();
+ 
+//Base
+module base() {
+    difference() {
+        //Positives
+        union() {
+            //Outer body
+            outerBody();
+            //Screw columns
+            screwColumns();
+        }
+        //Negatives
+        union() {
+            //Height limit
+            heightLimit();
+            //Battery space
+            batSpace();
+            //Battery opening
+            batOpening();
+            //Screw holes
+            screwHoles();
+            //Component space
+            compSpace();
+            //Logo
+            logo();
+        }
+    }
+};
+
+base();
